@@ -1,0 +1,38 @@
+.container{
+    height: 215px;
+    width: 340px;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: /*6 rijen */;
+    gap: 3px 3px;
+    grid-template-areas:
+      "header" "header" "header" "header"
+      "witespace" "witespace" "witespace" "witespace"
+      "item1" "item2" "item3" "item4"
+      "item5" "item6" "item7" "item8"
+      "item9" "item10" "item11" "item12"
+      "item13""item14";
+    background-color: #F5F5F5;
+    padding: 15px;
+    text-align: left;
+}
+
+.header{
+    font-size: 18px;
+    font-family: "Times New Roman";
+    text-align: left;
+    padding: 5px;
+}
+
+.item{
+    background-color: #fff;
+    color: #000;
+    font-size: 14px;
+    font-family: /*aanvullen*/;
+    text-align: center;
+    padding: 20px;
+}
+
+ hr{
+     color: #E6E6E6;
+ }

@@ -1,38 +1,59 @@
 .container{
-    height: 215px;
     width: 340px;
+    height: 215px;
+    margin: 10px;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: /*6 rijen */;
-    gap: 3px 3px;
-    grid-template-areas:
-      "header" "header" "header" "header"
-      "witespace" "witespace" "witespace" "witespace"
-      "item1" "item2" "item3" "item4"
-      "item5" "item6" "item7" "item8"
-      "item9" "item10" "item11" "item12"
-      "item13""item14";
+    grid-area: container;
+    grid-template-rows: repeat(auto-fill, minmax(60px,1fr));
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 2px 2px;
     background-color: #F5F5F5;
     padding: 15px;
-    text-align: left;
+    justify-content: start;
+    align-content: start;
+
 }
 
 .header{
+    grid-column: 1/6;
     font-size: 18px;
-    font-family: "Times New Roman";
+    font-weight: bold;
     text-align: left;
-    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+hr{
+    color: #E6E6E6;
+    text-align: center;
+}
+
+.whitespace{
+    grid-column: 1/6;
+    grid-row: 2;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
 }
 
 .item{
     background-color: #fff;
     color: #000;
     font-size: 14px;
-    font-family: /*aanvullen*/;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     padding: 20px;
+    border: solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #aaaaaa;
+
 }
 
- hr{
-     color: #E6E6E6;
- }
+
+
+

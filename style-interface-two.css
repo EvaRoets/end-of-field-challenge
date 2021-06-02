@@ -1,0 +1,51 @@
+.container{
+    width: 373px;
+    height: 312px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas:
+    "textbox-1"
+    "textbox-2"
+    "textbox-3";
+    border: 10px #B10029 solid;
+    text-align: center;
+}
+
+.textbox-1{
+    color: #353535;
+    background-color: #fff;
+    font-size:;
+    font-family:;
+    border-bottom: solid color: #EEEEEE;
+    padding: 5px;
+}
+
+.textbox-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    color: #22A800;
+    font-weight:bold;
+}
+
+.textbox-3{
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #FFC500;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+
+}

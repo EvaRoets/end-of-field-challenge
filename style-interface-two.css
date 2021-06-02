@@ -10,26 +10,40 @@
     "textbox-3";
     border: 10px #B10029 solid;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .textbox-1{
     color: #353535;
     background-color: #fff;
-    font-size:;
-    font-family:;
-    border-bottom: solid color: #EEEEEE;
     padding: 5px;
+    margin-left:40px;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
-.textbox-2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+hr{
+    width: 100%;
+    height: 0;
+    color: #EEEEEE;
+}
+
+
+.bold{
+    font-weight: 400;
+    padding-top: 30px;
+}
+.bolder{
+    font-weight: 900;
+    padding: 5px;
+
 }
 
 .product{
     color: #22A800;
     font-weight:bold;
+    font-size: 10px;
+    padding: 5px;
 }
 
 .textbox-3{
@@ -37,6 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: -1px;
 }
 
 button{

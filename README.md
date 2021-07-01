@@ -1,4 +1,4 @@
-# End of Field Challenge
+# End of Field Challenge 🌿
 ## Objectives
 - build two full integrations
 - consolidate knowledge of HTML, CSS and Github from all previous challenges

@@ -1,4 +1,7 @@
 # End of Field Challenge 🌿
+![end-of-the-field-one](https://user-images.githubusercontent.com/84382812/136963400-d3c342f8-bb11-44e9-8332-92332be2c70e.PNG)
+![end-of-the-field-two](https://user-images.githubusercontent.com/84382812/136963319-5125597a-071b-4ae1-bef6-12b81c632c8c.PNG)
+
 ## Objectives
 - build two full integrations
 - consolidate knowledge of HTML, CSS and Github from all previous challenges
@@ -27,7 +30,7 @@ For each interface :
 - Create a standard `style.css` stylesheet and link it to the html page
 - Add the relevant HTML and CSS code so that the end result looks as similar as possible to the provided _mockup images_.
 
-### Must-have-features
+### Must-haves
 #### Git
 
 - [ ] I have created the repository

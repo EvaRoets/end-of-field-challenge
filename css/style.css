@@ -1,0 +1,12 @@
+.container {
+    padding: 5px;
+    margin: 75px;
+    width: 50%;
+}
+
+.background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
